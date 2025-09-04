@@ -3,3 +3,7 @@
 py -m venv env
 
 .\env\scripts\activate
+
+pip install django
+
+py manage.py runserver
